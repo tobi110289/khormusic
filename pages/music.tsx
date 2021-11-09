@@ -24,7 +24,7 @@ const Music: NextPage = () => {
             height="166"
             frameBorder="0"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/763950289%3Fsecret_token%3Ds-bWUwx&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1154534815%3Fsecret_token%3Ds-pONty1Sm8K0&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           ></iframe>
         </div>
         <div sx={{ variant: "containers.soundcloud" }}>
@@ -33,7 +33,7 @@ const Music: NextPage = () => {
             height="166"
             frameBorder="0"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/763950289%3Fsecret_token%3Ds-bWUwx&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1154541931&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           ></iframe>
         </div>
       </div>
