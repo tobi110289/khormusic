@@ -35,6 +35,15 @@ const theme = {
       fontSize: "3.2rem",
       justifyContent: "space-between",
       color: "#fefdfb",
+    },
+    soundcloud: {
+      width: "90vw",
+      marginTop: "5vh"
+    },
+    vimeo: {
+      marginTop: "10vh",
+      padding: "56.25% 0 0 0",
+      position: "relative",
     }
   },
   styles: {
