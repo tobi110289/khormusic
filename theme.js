@@ -44,6 +44,12 @@ const theme = {
       marginTop: "10vh",
       padding: "56.25% 0 0 0",
       position: "relative",
+    },
+    images: {
+
+    },
+    image: {
+      marginTop: "2vh",
     }
   },
   styles: {

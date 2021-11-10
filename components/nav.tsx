@@ -9,7 +9,6 @@ interface Props {
 }
 
 const Nav: NextPage<Props> = ({ pathName }) => {
-  console.log({ pathName });
   return (
     <header>
       <nav sx={{ variant: "containers.nav" }}>
