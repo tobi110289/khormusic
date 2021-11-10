@@ -45,8 +45,8 @@ const theme = {
       padding: "56.25% 0 0 0",
       position: "relative",
     },
-    images: {
-
+    icons: {
+      display: "flex", flexDirection: "column", alignItems: "center", lineHeight: "1"
     },
     image: {
       marginTop: "2vh",
