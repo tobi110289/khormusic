@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Molot";
   src: url("/fonts/Molot.otf");
+  font-display: fallback;
 }
 
 html,

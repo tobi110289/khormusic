@@ -22,7 +22,7 @@ const theme = {
         fontSize: "4.2rem",
       },
       '@media screen and (max-width : 850px) and (orientation : landscape) ': {
-        fontSize: "2.2rem",
+        fontSize: "2.2rem !important",
         flexDirection: "row",
       },
       display: "flex",
