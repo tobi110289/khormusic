@@ -4,7 +4,7 @@ const theme = {
   ...dark,
   containers: {
     page: {
-      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : portrait) ': {
+      '@media screen and (min-width : 320px) and (max-width : 850px) and (orientation : portrait) ': {
         backgroundImage: "url('/backgroundsmall.png')",
       },
       backgroundImage: "url('/background.png')",
@@ -18,10 +18,10 @@ const theme = {
       justifyContent: "center",
     },
     main: {
-      '@media only screen and (min-width : 320px) and (max-width : 850px)': {
+      '@media screen and (min-width : 320px) and (max-width : 850px)': {
         fontSize: "4.2rem",
       },
-      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+      '@media screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
         fontSize: "2.2rem",
         flexDirection: "row",
       },
@@ -57,7 +57,7 @@ const theme = {
       flexDirection: "column",
       alignItems: "center",
       lineHeight: "1",
-      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+      '@media screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
         flexDirection: "row",
         lineHeight: "0.1",
       },
@@ -67,13 +67,13 @@ const theme = {
     },
     insta: {
       width: "3.2rem",
-      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+      '@media screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
         width: "2.5rem"
       },
     },
     mail: {
       width: "4.9rem",
-      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+      '@media screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
         width: "3.8rem"
       },
     }
