@@ -5,7 +5,7 @@ const theme = {
   containers: {
     page: {
       backgroundImage: "url('/backgroundsmall.png')",
-      '@media screen and (min-width: 416px)': {
+      '@media (min-width: 416px)': {
         backgroundImage: "url('/background.png')",
       },
       backgroundRepeat: "no-repeat",
