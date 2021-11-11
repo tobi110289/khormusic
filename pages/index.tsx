@@ -16,25 +16,25 @@ const Home: NextPage = () => {
     >
       <nav sx={{ variant: "containers.main" }}>
         <Link href="/">
-          <a>HOME</a>
+          <a className="main_nav_item">HOME</a>
         </Link>
         <Link href="/diary">
-          <a>DIARY</a>
+          <a className="main_nav_item">DIARY</a>
         </Link>
         <Link href="/music">
-          <a>MUSIC</a>
+          <a className="main_nav_item">MUSIC</a>
         </Link>
         <Link href="/videos">
-          <a>VIDEOS</a>
+          <a className="main_nav_item">VIDEOS</a>
         </Link>
         <div sx={{ variant: "containers.icons" }}>
           <Link passHref={true} href="https://www.instagram.com/khor_music/">
-            <a sx={{ width: "3.2rem" }}>
+            <a className="main_nav_item" sx={{ variant: "containers.insta" }}>
               <Image src={glyph} alt="Instagram"></Image>
             </a>
           </Link>
           <Link passHref={true} href="mailto:khorwallofsound@gmail.com">
-            <a sx={{ width: "4.9rem" }}>
+            <a className="main_nav_item" sx={{ variant: "containers.mail" }}>
               <Image src={mail} alt="Instagram"></Image>
             </a>
           </Link>

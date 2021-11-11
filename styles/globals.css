@@ -24,3 +24,7 @@ a:hover {
 * {
   box-sizing: border-box;
 }
+
+.main_nav_item {
+  margin: 0 0.3rem;
+}

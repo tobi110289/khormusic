@@ -4,10 +4,10 @@ const theme = {
   ...dark,
   containers: {
     page: {
-      backgroundImage: "url('/backgroundsmall.png')",
-      '@media (min-width: 850px)': {
-        backgroundImage: "url('/background.png')",
+      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : portrait) ': {
+        backgroundImage: "url('/backgroundsmall.png')",
       },
+      backgroundImage: "url('/background.png')",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover",
@@ -18,6 +18,13 @@ const theme = {
       justifyContent: "center",
     },
     main: {
+      '@media only screen and (min-width : 320px) and (max-width : 850px)': {
+        fontSize: "4.2rem",
+      },
+      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+        fontSize: "2.2rem",
+        flexDirection: "row",
+      },
       display: "flex",
       flexDirection: "column",
       fontSize: "5.2rem",
@@ -46,10 +53,29 @@ const theme = {
       position: "relative",
     },
     icons: {
-      display: "flex", flexDirection: "column", alignItems: "center", lineHeight: "1"
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      lineHeight: "1",
+      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+        flexDirection: "row",
+        lineHeight: "0.1",
+      },
     },
     image: {
       marginTop: "2vh",
+    },
+    insta: {
+      width: "3.2rem",
+      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+        width: "2.5rem"
+      },
+    },
+    mail: {
+      width: "4.9rem",
+      '@media only screen and (min-width : 320px) and (max-width : 850px) and (orientation : landscape) ': {
+        width: "3.8rem"
+      },
     }
   },
   styles: {
