@@ -5,7 +5,7 @@ const theme = {
   containers: {
     page: {
       backgroundImage: "url('/backgroundsmall.png')",
-      '@media (min-width: 416px)': {
+      '@media (min-width: 850px)': {
         backgroundImage: "url('/background.png')",
       },
       backgroundRepeat: "no-repeat",
@@ -29,7 +29,7 @@ const theme = {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-      '@media screen and (min-width: 416px)': {
+      '@media (min-width: 650px)': {
         flexDirection: "row",
       },
       fontSize: "3.2rem",
