@@ -14,14 +14,17 @@ const Diary = () => {
       <Nav pathName={router.pathname.substr(1)}></Nav>
       <div sx={{ variant: "containers.images" }}>
         {images.map((image) => (
-          <div key={image.src} sx={{ variant: "containers.image" }}>
+          <div key={image.src.src} sx={{ variant: "containers.image" }}>
             <Image
-              src={image}
-              alt="Picture of Khor"
-              quality="30"
+              src={image.src}
+              alt={image.alt}
+              width={image.width}
+              height={image.height}
+              quality="70"
               placeholder="blur"
+              layout="responsive"
               objectFit="scale-down"
-              sizes="50vw"
+              // sizes="50vw"
             />
           </div>
         ))}
