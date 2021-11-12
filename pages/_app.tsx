@@ -1,13 +1,19 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "theme-ui";
+import { NextStrictCSP } from "next-strict-csp";
 import theme from "../theme";
 import Head from "next/head";
+
+const HeadCSP = process.env.NODE_ENV === "production" ? NextStrictCSP : Head;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
-      <Head>
+      <HeadCSP>
+        {process.env.NODE_ENV === "production" && (
+          <meta httpEquiv="Content-Security-Policy" />
+        )}
         <title>KHOR MUSIC</title>
         <meta
           name="viewport"
@@ -17,22 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="An official online resource containing everything we, Berlin based band KHOR, have ever done, more or less. Videos, music, images, websites, instagram, email and assorted ephemeral materials."
         ></meta>
-        {/* <meta
-          httpEquiv="Content-Security-Policy"
-          content="default-src 'self';
-          script-src 'report-sample' 'self';
-          style-src 'unsafe-inline;
-          object-src 'none';
-          base-uri 'self';
-          connect-src 'self';
-          font-src 'self';
-          frame-src 'self' https://player.vimeo.com https://w.soundcloud.com;
-          img-src 'self' data: https://i.vimeocdn.com;
-          manifest-src 'self';
-          media-src 'self';
-          worker-src 'none';"
-        ></meta> */}
-      </Head>
+      </HeadCSP>
       <Component {...pageProps} />
     </ThemeProvider>
   );
