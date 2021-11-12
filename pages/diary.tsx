@@ -10,12 +10,9 @@ import { useEffect, useState } from "react";
 
 const Diary = () => {
   const router = useRouter();
-  const [changed, setChanged] = useState(false);
 
   useEffect(() => {
-    function onChange() {
-      setChanged(!changed);
-    }
+    function onChange() {}
     window && window.addEventListener("orientationchange", onChange);
     return () => {
       window.removeEventListener("orientationchange", onChange);
@@ -36,7 +33,7 @@ const Diary = () => {
               quality="70"
               placeholder="blur"
               layout="responsive"
-              objectFit="scale-down"
+              objectFit="contain"
             />
           </div>
         ))}

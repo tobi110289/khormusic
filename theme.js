@@ -64,6 +64,7 @@ const theme = {
     },
     image: {
       marginTop: "2vh",
+      boxSizing: "content-box",
     },
     insta: {
       width: "3.2rem",
