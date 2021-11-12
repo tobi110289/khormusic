@@ -20,7 +20,7 @@ const Diary = () => {
               alt={image.alt}
               width={image.width}
               height={image.height}
-              quality="70"
+              quality="92"
               placeholder="blur"
               layout="responsive"
               objectFit="contain"
