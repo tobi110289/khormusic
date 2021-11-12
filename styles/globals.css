@@ -29,3 +29,7 @@ a:hover {
 .main_nav_item {
   margin: 0 0.3rem;
 }
+
+.image_wrapper:first-of-type {
+  margin-top: 0vh;
+}
