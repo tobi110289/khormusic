@@ -3,13 +3,15 @@ import type { NextPage } from "next";
 /** @jsx jsx */
 import Link from "next/link";
 import { jsx } from "theme-ui";
-import glyph from "../public/glyph.png";
-import mail from "../public/mail.png";
+import glyph from "../public/glyph.webp";
+import mail from "../public/mail.webp";
 import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
     <div
+      role="navigation"
+      aria-label="Main"
       sx={{
         variant: "containers.page",
       }}

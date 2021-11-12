@@ -5,9 +5,9 @@ const theme = {
   containers: {
     page: {
       '@media screen and (max-width : 850px) and (orientation : portrait) ': {
-        backgroundImage: "url('/backgroundsmall.png')",
+        backgroundImage: "url('/backgroundsmall.webp')",
       },
-      backgroundImage: "url('/background.png')",
+      backgroundImage: "url('/background.webp')",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover",

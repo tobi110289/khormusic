@@ -6,19 +6,9 @@ import Nav from "../components/nav";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import images from "../helpers/images";
-import { useEffect, useState } from "react";
 
 const Diary = () => {
   const router = useRouter();
-
-  useEffect(() => {
-    function onChange() {}
-    window && window.addEventListener("orientationchange", onChange);
-    return () => {
-      window.removeEventListener("orientationchange", onChange);
-    };
-  });
-
   return (
     <div>
       <Nav pathName={router.pathname.substr(1)}></Nav>
