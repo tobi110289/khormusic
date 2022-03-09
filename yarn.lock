@@ -2523,11 +2523,6 @@ next-fonts@^1.5.1:
     file-loader "^6.0.0"
     url-loader "^4.0.0"
 
-next-strict-csp@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/next-strict-csp/-/next-strict-csp-1.0.1.tgz#a17d522b58d6bee4fffe3d33d7e6c289aade56c0"
-  integrity sha512-X3VvFXAzOD5/63rjJc8hl5JKQYXNyRUYHGRRqvOji8IHLeknxAo1KEa9V58IWOdC7LsCFoUmAcxvQVKaK2jfiQ==
-
 next@12.0.3:
   version "12.0.3"
   resolved "https://registry.yarnpkg.com/next/-/next-12.0.3.tgz#325732ceb4193306a9a31912815fc570d1a66641"

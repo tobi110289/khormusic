@@ -25,6 +25,7 @@ const Diary = () => {
               layout="responsive"
               objectFit="contain"
             />
+            {(image.alt == "Photo of the video shoot for Khor") ? <p className="credit">- Photo by <a className="credit" href="https://www.paulinefabry.de/">Pauline Fabry</a> -</p> : null}
           </div>
         ))}
       </div>

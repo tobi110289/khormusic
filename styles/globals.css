@@ -33,3 +33,9 @@ a:hover {
 .image_wrapper:first-of-type {
   margin-top: 0vh;
 }
+
+.credit {
+  margin: 0;
+  font-family: "Helvetica Neue";
+  text-align: center
+}
