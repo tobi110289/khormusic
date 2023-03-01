@@ -31,9 +31,13 @@ import EA12 from '../public/gallery/EA_12.webp';
 import EA13 from '../public/gallery/EA_13.webp';
 import EA14 from '../public/gallery/EA_14.webp';
 import EA15 from '../public/gallery/EA_15.webp';
+import INGRET1 from '../public/gallery/INGRET_1.webp';
+import INGRET2 from '../public/gallery/INGRET_2.webp';
 
 
 const images = [
+  { width: 5315, height: 3543, src: INGRET1, alt: 'Photo of KHOR in Chez Cherie' },
+  { width: 5315, height: 3543, src: INGRET2, alt: 'Photo of KHOR in Chez Cherie' },
   { width: 5315, height: 3543, src: Bicho1, alt: 'Photo of the video shoot for Khor' },
   { width: 5315, height: 3543, src: Bicho2, alt: 'Photo of the video shoot for Khor' },
   { width: 5315, height: 3543, src: Bicho3, alt: 'Photo of the video shoot for Khor' },
