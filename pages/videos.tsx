@@ -16,26 +16,7 @@ const Videos: NextPage = () => {
         }}
       >
         <iframe
-          src="https://player.vimeo.com/video/812585433?h=40747193fe&title=0&byline=0&portrait=0"
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            border: "0px",
-          }}
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-      <div
-        sx={{
-          variant: "containers.vimeo",
-        }}
-      >
-        <iframe
-          src="https://player.vimeo.com/video/642797492?h=f7098ef26a&title=0&byline=0&portrait=0"
+          src="https://player.vimeo.com/video/838068672?h=b5cfbf445a&title=0&byline=0&portrait=0"
           style={{
             position: "absolute",
             top: 0,
